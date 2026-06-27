@@ -1,10 +1,22 @@
-StackLayoutExemple:
+PageLayoutExemple:
+
+<PageLayoutExemple@PageLayout>:
+    MainWidget:
+    BoxLayoutExemple:
+    AnchorLayoutExemple:
+    GridLayoutExemple:
+
+
+<ScrollViewExemple@ScrollView>
+    StackLayoutExemple:
+        size_hint: 1, None
+        height: self.minimum_height
 
 <StackLayoutExemple>:
     # "left-right, top-botton"
     # orientation: "lr-bt"
     # padding: ("20dp", "0dp", "100dp", "50dp")
-    spacing: "20dp", "20dp"
+    # spacing: "20dp", "20dp"
 
 <GridLayoutExemple@GridLayout>:
     # rows :
