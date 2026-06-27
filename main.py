@@ -2,6 +2,7 @@ from kivy.app import App
 from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
+from kivy.uix.gridlayout import GridLayout
 from kivy.uix.widget import Widget
 
 
@@ -10,6 +11,9 @@ class MainWidget(Widget):
 
 class AnchorLayoutExemple(AnchorLayout):
     pass
+
+#class GridLayoutExemple(GridLayout):
+#    pass
 
 class BoxLayoutExemple(BoxLayout):
     pass
@@ -26,6 +30,6 @@ class BoxLayoutExemple(BoxLayout):
 """
 class LeLabApp(App):
     def build(self):
-        return BoxLayoutExemple()
+        return
 
 LeLabApp().run()
